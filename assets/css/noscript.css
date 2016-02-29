@@ -3,19 +3,16 @@
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 */
-
 /* Basic */
-
-	body:after {
-		display: none;
-	}
+body:after {
+  display: none; }
 
 /* Main */
+#main {
+  -moz-transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+  opacity: 1 !important; }
 
-	#main {
-		-moz-transform: none !important;
-		-webkit-transform: none !important;
-		-ms-transform: none !important;
-		transform: none !important;
-		opacity: 1 !important;
-	}
+/*# sourceMappingURL=noscript.css.map */
